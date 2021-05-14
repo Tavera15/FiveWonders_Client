@@ -1,0 +1,9 @@
+.base-page{
+    justify-content: center;
+}
+
+.products-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
