@@ -6,8 +6,11 @@ function Products()
 {
     return(
         <div className="base-page">
-            <h1>Products</h1>
-
+            <div className="products-banner-img card-img-top mb-4">
+                <div className="products-banner-shader">
+                    <h1 className="banner-name">Products</h1>
+                </div>                
+            </div>
             <div className=" products-list col-12">
                 <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" img="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/117599231_303309337761291_5702051755074339585_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=973b4a&_nc_ohc=DFa4Apfl_x0AX8Qq9a_&_nc_ht=scontent-dfw5-2.xx&oh=50349a796477024d8ec839b9cbb883d4&oe=60C21040"/>
                 

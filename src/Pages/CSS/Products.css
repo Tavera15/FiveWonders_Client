@@ -1,5 +1,30 @@
 .base-page{
     justify-content: center;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.products-banner-img{
+    background-image: url("https://i.pinimg.com/originals/1c/65/af/1c65af8070a26b1f063abfb467e32703.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    border: solid lightgray 1px;
+}
+
+.products-banner-shader{
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.banner-name{
+    text-align: left;
+    color: white;
 }
 
 .products-list{

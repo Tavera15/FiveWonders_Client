@@ -1,0 +1,20 @@
+#item-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 0 0;
+}
+
+.item-img{
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px lightgrey;
+    justify-content: center;
+}
+
+.item-img img{
+    position: absolute;   
+    top: 50%;
+    transform: translateY(-50%);
+}
