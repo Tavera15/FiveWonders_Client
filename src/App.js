@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div className="col-lg-3 col-md-12 p-0">
+        <div className="col-xl-2 col-lg-3 col-md-12 p-0">
           <NavBar />
         </div>
 
-        <div className="col-lg-9 col-md-12 p-0">
+        <div className="col-xl-10 col-lg-9 col-md-12 p-0">
           <Switch>
 
             <Route exact path="/Products">

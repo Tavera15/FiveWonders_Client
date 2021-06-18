@@ -11,17 +11,33 @@ function Products()
                     <h1 className="banner-name">Products</h1>
                 </div>                
             </div>
-            <div className=" products-list col-12">
-                <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" img="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/117599231_303309337761291_5702051755074339585_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=973b4a&_nc_ohc=DFa4Apfl_x0AX8Qq9a_&_nc_ht=scontent-dfw5-2.xx&oh=50349a796477024d8ec839b9cbb883d4&oe=60C21040"/>
-                
-                <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" img="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/119062054_321936829231875_5774789871987076892_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=QSVbGlrkT4sAX8Ra9Te&_nc_ht=scontent-dfw5-2.xx&oh=ded986f4008eb20ed90974e537ba4ae5&oe=60C3692D" />
-                
-                <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash Character Text Pocket T-Shirt - Mint Acid Wash" img="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/121359810_348416586583899_7732558674776597127_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=vKvRahe-smMAX_eTD-c&_nc_ht=scontent-dfw5-2.xx&oh=eb4f4392d9e18f1e651df7256b1e90be&oe=60C402CD"/>
-                
-                <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" img="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/100595692_247305520028340_7620830935973363712_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=973b4a&_nc_ohc=vJH06ooTTqoAX_oKIcE&_nc_ht=scontent-dfw5-1.xx&oh=271e5f36147ffac935a11d96654b5782&oe=60C2363E" />
-                
-                <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" img="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/103415793_257784892313736_7463922553808907042_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=m5C-101xaC4AX_unA5c&_nc_ht=scontent-dfw5-2.xx&oh=e12f1c48f90882870a203951794b8a2b&oe=60C22D31"/>
-                <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" img="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/103415793_257784892313736_7463922553808907042_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=m5C-101xaC4AX_unA5c&_nc_ht=scontent-dfw5-2.xx&oh=e12f1c48f90882870a203951794b8a2b&oe=60C22D31"/>
+
+            <div className="product-container col-12 p-0">
+                <div className=" products-list col-12">
+                    <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" 
+                    img="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/183663618_490811815677708_5697824285733319110_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=973b4a&_nc_ohc=R48g3yoXSEgAX9oHBwJ&_nc_ht=scontent-dfw5-2.xx&oh=7e4f88355beec5b48157487bc414403d&oe=60D1B1C7"
+                    />
+                    
+                    <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" 
+                    img="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/166068028_464775821614641_5695597253326723654_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=973b4a&_nc_ohc=X6H_4E0S5TwAX-RkvNf&_nc_ht=scontent-dfw5-1.xx&oh=ccb3be175abc5ffdd5f5a38a3a6f749c&oe=60D0F7AE" 
+                    />
+                    
+                    <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash Character Text Pocket T-Shirt - Mint Acid Wash" 
+                    img="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/183663618_490811815677708_5697824285733319110_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=973b4a&_nc_ohc=R48g3yoXSEgAX9oHBwJ&_nc_ht=scontent-dfw5-2.xx&oh=7e4f88355beec5b48157487bc414403d&oe=60D1B1C7"
+                    />
+                    
+                    <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" 
+                    img="https://via.placeholder.com/250" 
+                    />
+                    
+                    <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" 
+                    img="https://via.placeholder.com/250"
+                    />
+
+                    <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" 
+                    img="https://via.placeholder.com/100"
+                    />
+                </div>
             </div>
         </div>
     );
