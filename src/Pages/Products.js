@@ -37,6 +37,10 @@ function Products()
                     <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" 
                     img="https://via.placeholder.com/100"
                     />
+
+                    <ProductCard name="Character Text Pocket T-Shirt - Mint Acid Wash" 
+                    img="https://via.placeholder.com/100"
+                    />
                 </div>
             </div>
         </div>

@@ -21,6 +21,7 @@ function NavBar()
                         <li className="nav-li"><Link to="/Products"><h3 className="nav-item-text">Balloons</h3></Link></li>
                         <li className="nav-li"><Link to="/Products"><h3 className="nav-item-text">Clothing</h3></Link></li>
                         <li className="nav-li"><Link to="/Item"><h3 className="nav-item-text">Item</h3></Link></li>
+                        <li className="nav-li"><Link to="/Item"><h3 className="nav-item-text">Item</h3></Link></li>
                     </ul>
                 </div>
             </div>
