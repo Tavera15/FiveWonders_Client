@@ -28,27 +28,22 @@
 .item-quantity-container{
     display: inline-flex;
     flex-direction: row;
-    border: solid black 3px;
+    border: solid black 2px;
     border-radius: 10px;
 }
 
 .quantity-btn{
     height: 40px;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .item-quantity-num{
-    border-left: solid black 3px;
-    border-right: solid black 3px;
+    border: none;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
     font-size: 25px;
+    width: 7rem;
+    text-align: center;
     margin: 0;
-    padding: 0 25px;
 }
 
 .item-select-size-container{
@@ -58,24 +53,31 @@
 }
 
 .size-box-container{
-    width: 7rem;
+    width: 6rem;
     padding: 10px;
 }
 
 .size-box{
-    border: solid black 2px;
-    padding: 30px;
+    border: solid black 3px;
+    padding: 20px;
+    width: 100%;
     background-color: white;
     color: black;
 }
 
-.size-box:hover{
-    background-color: rgba(140,140,140,1);
+.size-box-selected{
+    background-color: rgb(40,40,40);
     color: white;
 }
 
 .size-box-text{
     margin: 0;
+    font-size: larger;
+}
+
+.add-to-cart-btn-text{
+    margin: 0;
+    padding: 5px 0;
 }
 
 .item-desc{

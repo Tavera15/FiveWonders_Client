@@ -2,7 +2,7 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Products from './Pages/Products';
-import Item from './Pages/Item';
+import ItemPage from './Pages/ItemPage';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             </Route>
 
             <Route exact path="/Item">
-              <Item />
+              <ItemPage />
             </Route>
 
           </Switch>
