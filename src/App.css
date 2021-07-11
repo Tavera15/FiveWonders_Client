@@ -12,6 +12,17 @@
   overflow-y: scroll;
 }
 
+.hide-scrollbar{
+  overflow: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
 .unhover{
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */

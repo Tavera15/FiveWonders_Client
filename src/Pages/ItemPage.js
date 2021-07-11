@@ -7,9 +7,6 @@ function ItemPage()
     return(
         <div className="base-page">
             <Item />
-            <hr />
-            <ProductList />
-            <hr />
         </div>
     );
 }

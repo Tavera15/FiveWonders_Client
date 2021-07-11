@@ -3,6 +3,7 @@ import NavBar from './Components/NavBar';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Products from './Pages/Products';
 import ItemPage from './Pages/ItemPage';
+import BasketPage from './Pages/BasketPage';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
 
             <Route exact path="/Item">
               <ItemPage />
+            </Route>
+            <Route exact path="/Basket">
+              <BasketPage />
             </Route>
 
           </Switch>

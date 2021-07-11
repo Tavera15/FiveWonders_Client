@@ -1,0 +1,11 @@
+#basket-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.basket-items{
+    justify-content: center;
+    height: 100vh;
+}
+
