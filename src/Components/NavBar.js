@@ -29,4 +29,7 @@ function NavBar()
 export default NavBar;
 /* 
 https://mk0abtastybwtpirqi5t.kinstacdn.com/wp-content/uploads/shopping-cart-payment-options.jpg
+https://www.facebook.com/5wonders/photos/a.105656960859864/371990414226516/?type=3&theater
+https://www.facebook.com/5wonders/photos/a.105662837525943/340390184053206/?type=3&theater
+
  */

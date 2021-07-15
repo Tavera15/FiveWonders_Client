@@ -9,3 +9,29 @@
     height: 100vh;
 }
 
+.checkout-box{
+    padding: 10px;
+    background-color: rgba(0,0,0,.1);
+}
+
+.checkout-btn{
+    width: 100%;
+}
+
+.checkout-btn-text{
+    margin: 0;
+    padding: 5px 0;
+}
+
+.checkout-details-box{
+    background-color: white;
+    text-align: right;
+    padding: 10px 30px;
+}
+
+.single-detail-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
