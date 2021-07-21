@@ -4,7 +4,7 @@ import plusSign from '../Content/Icons/round-plus.svg';
 import minusSign from '../Content/Icons/round-minus.svg';
 import { Button } from 'react-bootstrap';
 
-function Item()
+function Item(props)
 {
     const[quantity, setQuantity] = useState(1);
     const[sizeSelected, setSizeSelected] = useState("");
@@ -30,7 +30,7 @@ function Item()
 
     return(
         <div id="item-page">
-            <div id="demo" className="carousel slide col-lg-7 col-md-12" data-ride="carousel">
+            <div id="demo" className="carousel slide item-carousel col-lg-7 col-md-7 col-sm-12" data-ride="carousel">
 
                 <ul className="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" className="active"></li>
@@ -38,11 +38,13 @@ function Item()
                 </ul>
 
                 <div className="carousel-inner">
-                    <div className="carousel-item active item-img">
-                        <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/183663618_490811815677708_5697824285733319110_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=973b4a&_nc_ohc=R48g3yoXSEgAX9oHBwJ&_nc_ht=scontent-dfw5-2.xx&oh=7e4f88355beec5b48157487bc414403d&oe=60D1B1C7" alt="Los Angeles"/>
+                    <div className="carousel-item active item-img card-img-top">
+                        <img src="https://ji4n127gpjg29plb11l88dg7-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/iStock-182444072-681x1024.jpg" 
+                        alt="Los Angeles"/>
                     </div>
-                    <div className="carousel-item item-img">
-                        <img src="https://miro.medium.com/max/2880/1*RkMinN_ZS-mW1uqh1rANag.jpeg" alt="New York"/>
+                    <div className="carousel-item item-img card-img-top">
+                        <img src="https://miro.medium.com/max/2880/1*RkMinN_ZS-mW1uqh1rANag.jpeg" 
+                        alt="New York"/>
                     </div>
                 </div>
 
@@ -55,9 +57,9 @@ function Item()
 
             </div>
                 
-            <div className="col-lg-5 col-sm-12">
-                <h1 className="item-name">Over the Moon - Chang'e Balloon</h1>
-                <h2 className="item-price">$10.00</h2>
+            <div className="item-data col-lg-5 col-md-5 col-sm-12">
+                <h2 className="item-name mb-4">Over the Moon - Chang'e Balloon</h2>
+                <h3 className="item-price">$10.00</h3>
                 
                 < hr />
 
@@ -80,7 +82,7 @@ function Item()
                     </div>
                 </div>
 
-                <Button type="button" className="btn btn-dark col-12 mb-4"><h4 className="add-to-cart-btn-text">Add To Cart</h4></Button>
+                <Button type="button" className="btn btn-dark col-12 mb-4"><h4 className="add-to-cart-btn-text">{props.btnText}</h4></Button>
                 
                 <div>
                     <p className="item-desc">

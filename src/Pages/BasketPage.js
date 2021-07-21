@@ -5,7 +5,7 @@ import BasketCard from "../Components/BasketCard";
 function BasketPage()
 {
     return(
-        <div className="base-page hide-scrollbar" id="basket-page">
+        <div className="base-page" id="basket-page">
             <div className="col-lg-8 col-sm-12 basket-items hide-scrollbar pt-4">
                 <BasketCard />
                 <hr/>

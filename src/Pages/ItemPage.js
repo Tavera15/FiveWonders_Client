@@ -6,7 +6,7 @@ function ItemPage()
 {
     return(
         <div className="base-page">
-            <Item />
+            <Item btnText="Add to cart" />
         </div>
     );
 }
