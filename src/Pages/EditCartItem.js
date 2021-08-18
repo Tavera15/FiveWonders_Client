@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import Item from '../Components/Item';
 
 function EditCartItem()

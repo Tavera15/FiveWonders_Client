@@ -6,7 +6,7 @@ function BasketPage()
 {
     return(
         <div className="base-page" id="basket-page">
-            <div className="col-lg-8 col-sm-12 basket-items hide-scrollbar pt-4">
+            <div className="col-xl-8 col-lg-7 col-sm-12 basket-items hide-scrollbar pt-4">
                 <BasketCard />
                 <hr/>
                 <BasketCard />
@@ -18,11 +18,10 @@ function BasketPage()
                 <BasketCard />
                 <hr/>
             </div>
-            <div className="col-lg-4 col-sm-12 pt-4">
+            <div className="col-xl-4 col-lg-5 col-sm-12 pt-4 x">
                 <div className="checkout-box">
                     <h3>Order Summary</h3>
-                    <div className="checkout-details-box">
-                        <h5 className="mb-4">1 Product(s)</h5>
+                    <div className="checkout-details-box pt-4">
                         <div className="single-detail-box mb-4">
                             <h5>Subtotal: </h5>
                             <h5>$220.00</h5>

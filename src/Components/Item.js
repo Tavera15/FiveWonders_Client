@@ -29,7 +29,7 @@ function Item(props)
     }
 
     return(
-        <div id="item-page">
+        <div className="item-component pt-4">
             <div id="demo" className="carousel slide item-carousel col-lg-7 col-md-7 col-sm-12" data-ride="carousel">
 
                 <ul className="carousel-indicators">
