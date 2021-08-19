@@ -66,6 +66,8 @@ function NavBar()
                         <li className="nav-li"><Link to="/Admin/CategoryManager/CreateCategory"><h3 className="nav-item-text">Create Category</h3></Link></li>
                         
                         <li className="nav-li"><Link to="/Admin/SubcategoryManager/CreateSubcategory"><h3 className="nav-item-text">Create Subcategory</h3></Link></li>
+                        
+                        <li className="nav-li"><Link to="/Admin/SizeChartManager/CreateSizeChart"><h3 className="nav-item-text">Create Size Chart</h3></Link></li>
                     </ul>
                 </div>
             </div>

@@ -46,7 +46,7 @@ function ProductMaker(props)
 
                 <div className="form-group">
                     <label htmlFor="productDescription">Description</label>
-                    <input required type="number" min="0.00" step="0.01" className="form-control" id="productDescription" />
+                    <input required className="form-control" id="productDescription" />
                 </div>
 
                 < hr />
