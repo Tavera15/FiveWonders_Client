@@ -24,7 +24,7 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .item-name{
+    .item-name, .item-price{
         text-align: center;
     }
 
@@ -84,10 +84,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item-carousel{
     height: 100%;
+    width: 45rem;
+}
+
+.item-data{
+    width: 45rem;
 }
 
 .item-img{
@@ -99,6 +105,10 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.item-data-block{
+    text-align: center;
 }
 
 .item-quantity-container{
@@ -150,9 +160,20 @@
     color: white;
 }
 
+.addCart-btn{
+    background-color: rgba(121,180,188,255) !important;
+    border: rgba(121,180,188,255) 1px solid !important;
+}
+
+.addCart-btn:hover{
+    background-color: rgba(235,147,111,255) !important;
+    border: rgba(235,147,111,255) 1px solid !important;
+}
+
 .add-to-cart-btn-text{
     margin: 0;
     padding: 5px 0;
+    color: whitesmoke;
 }
 
 .item-desc{

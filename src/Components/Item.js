@@ -29,8 +29,8 @@ function Item(props)
     }
 
     return(
-        <div className="item-component pt-4">
-            <div id="demo" className="carousel slide item-carousel col-lg-7 col-md-7 col-sm-12" data-ride="carousel">
+        <div className="item-component">
+            <div id="demo" className="carousel slide item-carousel p-4" data-ride="carousel">
 
                 <ul className="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" className="active"></li>
@@ -57,13 +57,13 @@ function Item(props)
 
             </div>
                 
-            <div className="item-data col-lg-5 col-md-5 col-sm-12">
+            <div className="item-data p-4">
                 <h2 className="item-name mb-4">Over the Moon - Chang'e Balloon</h2>
                 <h3 className="item-price">$10.00</h3>
                 
                 < hr />
 
-                <div className="mb-4">
+                <div className="mb-4 item-data-block">
                     <h4>Quantity</h4>
                     <div className="item-quantity-container">
                         <input onClick={e => onQuantityUpdate(e, -1)} type="image" alt="minus" src={minusSign} className="quantity-btn unhover"/>
@@ -72,7 +72,7 @@ function Item(props)
                     </div>
                 </div>
 
-                <div className="mb-4">
+                <div className="mb-4 item-data-block">
                     <h4>Select Size</h4>
                     <div className="item-select-size-container">
                         <div className="size-box-container"><div onClick={e => onSizeSelect(e, "XS", 0)} type="button" className="size-box box-0"><p className="size-box-text unhover">XS</p></div></div>
@@ -82,7 +82,7 @@ function Item(props)
                     </div>
                 </div>
 
-                <Button type="button" className="btn btn-dark col-12 mb-4"><h4 className="add-to-cart-btn-text">{props.btnText}</h4></Button>
+                <Button type="button" className=" addCart-btn col-12 mb-4"><h4 className="add-to-cart-btn-text">{props.btnText}</h4></Button>
                 
                 <div>
                     <p className="item-desc">
