@@ -11,6 +11,15 @@
     .item-img{
         height: 30rem;
     }
+
+    .size-box-container{
+        padding: 10px;
+    }
+    
+    .size-box{
+        height: 4rem;
+        width: 4rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -21,6 +30,15 @@
 
     .item-img{
         height: 30rem;
+    }
+
+    .size-box-container{
+        padding: 7px;
+    }
+    
+    .size-box{
+        width: 3rem;
+        height: 3rem;
     }
 }
 
@@ -50,6 +68,15 @@
         border: solid 1px lightgrey;
         background-color: whitesmoke;
         height: 40rem;
+    }
+
+    .size-box-container{
+        padding: 10px;
+    }
+    
+    .size-box{
+        width: 4rem;
+        height: 4rem;
     }
 }
 
@@ -102,7 +129,6 @@
 }
 
 .size-box-container{
-    padding: 10px;
 }
 
 .size-box{
@@ -112,8 +138,6 @@
     border: solid black 3px;
     background-color: white;
     color: black;
-    width: 4rem;
-    height: 4rem;
 }
 
 .size-box-text{

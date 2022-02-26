@@ -4,7 +4,7 @@ import CategoryMaker from '../../../Components/Makers/CategoryMaker';
 function CreateCategory()
 {
     return(
-        <div className="base-page">
+        <div className="">
             <h1>Create Category</h1>
             <CategoryMaker btnText="Create Category" />
         </div>

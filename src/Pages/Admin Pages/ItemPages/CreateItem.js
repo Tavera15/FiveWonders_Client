@@ -4,7 +4,7 @@ import ProductMaker from '../../../Components/Makers/ProductMaker';
 function CreateItem()
 {
     return(
-        <div className="base-page">
+        <div className="">
             <h1>Create Item Page</h1>
             <ProductMaker btnText="Create" />
         </div>

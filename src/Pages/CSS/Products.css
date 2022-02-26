@@ -1,7 +1,8 @@
 
 .products-banner-img{
     background-image: url("https://i.pinimg.com/originals/1c/65/af/1c65af8070a26b1f063abfb467e32703.jpg");
-    background-image: url("https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/124574834_371990417559849_240305258807556833_n.jpg?_nc_cat=109&ccb=1-4&_nc_sid=e3f864&_nc_ohc=RDrHEKJ1NNIAX9nly4i&_nc_ht=scontent-dfw5-2.xx&oh=1138bc7ae0cd28bdbe0618603a2bb6e5&oe=61370B68");
+    background-image: url("https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/124574834_371990417559849_240305258807556833_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=QEhqyHtUqI4AX_nd1BU&_nc_ht=scontent-dfw5-2.xx&oh=d4235a16b48cd975668f6d5e79090030&oe=61765368");
+    background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/124574834_371990417559849_240305258807556833_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=GTHoNR_w0l8AX9ZJeOa&_nc_ht=scontent-atl3-1.xx&oh=00_AT9PxzrpzTPBxTThsTKrV3dTHjXxFtwLGAZOEFChpRK6ug&oe=6208A9E8");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,7 +10,7 @@
 }
 
 .products-banner-shader{
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(34, 27, 27, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;

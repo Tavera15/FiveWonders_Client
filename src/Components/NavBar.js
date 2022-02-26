@@ -1,76 +1,55 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./CSS/NavBar.css";
-import Logo from "../Content/Logos/LogoOriginal.png";
+import Logo from "../Content/Logos/New_Logo.jpg";
+import Cart from "../Content/Icons/Cart16.png";
+import Search from "../Content/Icons/search.png";
+import Account from "../Content/Icons/account.png";
+
 
 
 function NavBar()
 {
     return(
-        <div className="navbar-container">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light small-device-navbar">
-                <a className="navbar-brand" href="#">Navbar</a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
-                    </li>
-                    <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                        </a>
-                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="#">Action</a>
-                        <a className="dropdown-item" href="#">Another action</a>
-                        <div className="dropdown-divider"></div>
-                        <a className="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    </ul>
-                    <form className="form-inline my-2 my-lg-0">
-                    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
-
-            <div className="navbar-shader hide-scrollbar big-device-navbar">
-
-                <div>
-                    <a href="/">Account</a>
-                    <a href="/">Cart</a>
-                </div>
-                <img
-
-                    className="navbar-logo mb-4"
-                    src={Logo} 
-                    alt="logo"
-                />
-                <hr/>
-                <div>
-                    <ul className="nav-ul">
-                        <li className="nav-li"><Link to="/Products"><h3 className="nav-item-text">Products</h3></Link></li>
-                        <li className="nav-li"><Link to="/Item"><h3 className="nav-item-text">Item</h3></Link></li>
-                        <li className="nav-li"><Link to="/Cart"><h3 className="nav-item-text">Cart</h3></Link></li>
-                        <li className="nav-li"><Link to="/EditCartItem"><h3 className="nav-item-text">Cart Item</h3></Link></li>
-
-                        <li className="nav-li"><Link to="/Admin/ProductManager/CreateItem"><h3 className="nav-item-text">Create Item</h3></Link></li>
-                        
-                        <li className="nav-li"><Link to="/Admin/CategoryManager/CreateCategory"><h3 className="nav-item-text">Create Category</h3></Link></li>
-                        
-                        <li className="nav-li"><Link to="/Admin/SubcategoryManager/CreateSubcategory"><h3 className="nav-item-text">Create Subcategory</h3></Link></li>
-                        
-                        <li className="nav-li"><Link to="/Admin/SizeChartManager/CreateSizeChart"><h3 className="nav-item-text">Create Size Chart</h3></Link></li>
-                    </ul>
+        <div className='sticky-top navbar-bg'>
+            <div className='navbar-main'>
+                <img src={Search} className="navbar-icon" />
+                <img src={Logo} className="site-logo" />
+                <div className='navbar-user'>
+                    <img src={Cart} className="navbar-icon" />
+                    <img src={Account} className="navbar-icon" />
                 </div>
             </div>
+            <nav className="navbar navbar-expand navbar-light  w-100 m-0">
+                <div className="collapse navbar-collapse w-100" id="navbarNavDropdown">
+                    <ul className="navbar-nav navbar-links-group">
+                        <li className="nav-item active">
+                            <a className="nav-link" href="#">Balloons <span className="sr-only">(current)</span></a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Clothing</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     );
 }
