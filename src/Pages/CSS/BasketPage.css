@@ -1,18 +1,13 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .basket-items{
-        overflow: visible;
-        overflow-y: visible;
-        height: fit-content;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .basket-items{
-        overflow: visible;
-        overflow-y: visible;
-        height: fit-content;
+        
     }
 }
 
@@ -24,9 +19,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .basket-items{
-        overflow: hidden;
-        overflow-y: scroll;
-        height: 100vh;
+        
     }
 }
 
@@ -37,21 +30,34 @@
 
 #basket-page{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .basket-items{
     justify-content: center;
+    width: 50rem;
+}
+
+.checkout-box-wrapper{
+    width: 30rem;
 }
 
 .checkout-box{
     padding: 10px 20px 15px;
     background-color: rgba(0,0,0,.1);
+    width: 100%;
 }
 
 .checkout-btn{
+    background-color: rgba(121,180,188,255) !important;
+    border: rgba(121,180,188,255) 1px solid !important;
     width: 100%;
+}
+
+.checkout-btn:hover{
+    background-color: rgba(235,147,111,255) !important;
+    border: rgba(235,147,111,255) 1px solid !important;
 }
 
 .checkout-btn-text{

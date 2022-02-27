@@ -10,14 +10,10 @@ import CreateCategory from './Pages/Admin Pages/CategoryPages/CreateCategory';
 import CreateSubCategory from './Pages/Admin Pages/SubCategoryPages/CreateSubCategory';
 import CreateSizeChart from './Pages/Admin Pages/SizeChartPages/CreateSizeChart';
 import Home from './Pages/Home';
-import Logo from '../src/Content/Logos/LogoOriginal.png';
 
 function App() {
   return (
     <div className="">
-      {/* <div style={{textAlign: 'center'}}>
-        <img src={Logo} className="site-logo" />
-      </div> */}
       <Router>
           <NavBar />
           
