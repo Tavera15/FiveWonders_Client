@@ -31,7 +31,7 @@ function App() {
               <Route exact path="/Cart">
                 <BasketPage />
               </Route>
-              <Route exact path="/EditCartItem">
+              <Route exact path="/Cart/EditCartItem">
                 <EditCartItem />
               </Route>
 

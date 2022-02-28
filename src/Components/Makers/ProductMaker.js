@@ -1,11 +1,12 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import "../CSS/Item.css"
 
 function ProductMaker(props)
 {
     return(
-        <div className="item-component pt-4">
-            <div id="demo" className="carousel slide item-carousel col-lg-7 col-md-7 col-sm-12" data-ride="carousel">
+        <div className="item-component">
+            <div id="demo" className="carousel slide item-carousel p-4" data-ride="carousel">
 
                 <ul className="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" className="active"></li>
@@ -32,7 +33,7 @@ function ProductMaker(props)
 
             </div>
                 
-            <div className="item-data col-lg-5 col-md-5 col-sm-12">
+            <div className="item-data p-4">
 
                 <div className="form-group">
                     <label htmlFor="productName">Product Name</label>

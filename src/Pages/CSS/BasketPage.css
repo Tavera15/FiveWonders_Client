@@ -1,19 +1,25 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .basket-items{
+    .checkout-box-wrapper{
+        width: 30rem;
     }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .basket-items{
-        
+        width: 26rem;
+    }
+    
+    .checkout-box-wrapper{
+        width: 25rem;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
+
 }
     
 /* Large devices (laptops/desktops, 992px and up) */
@@ -25,7 +31,13 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    .basket-items{
+        width: 50rem;
+    }
+    
+    .checkout-box-wrapper{
+        width: 30rem;
+    }
 }
 
 #basket-page{
@@ -36,11 +48,6 @@
 
 .basket-items{
     justify-content: center;
-    width: 50rem;
-}
-
-.checkout-box-wrapper{
-    width: 30rem;
 }
 
 .checkout-box{
