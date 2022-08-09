@@ -5,7 +5,7 @@ function CreateItem()
 {
     return(
         <div className="">
-            <h1>Create Item Page</h1>
+            <h1>Create Item</h1>
             <ProductMaker btnText="Create" />
         </div>
     );

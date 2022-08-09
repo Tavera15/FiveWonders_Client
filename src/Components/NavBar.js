@@ -11,7 +11,7 @@ import Account from "../Content/Icons/account.png";
 function NavBar()
 {
     return(
-        <div className='sticky-top navbar-bg'>
+        <div className='navbar-bg'>
             <div className='navbar-main'>
                 <img src={Search} className="navbar-icon" />
                 <img src={Logo} className="site-logo" />
