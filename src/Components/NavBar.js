@@ -4,6 +4,7 @@ import Logo from "../Content/Logos/New_Logo.jpg";
 import Cart from "../Content/Icons/Cart16.png";
 import Search from "../Content/Icons/search.png";
 import Account from "../Content/Icons/account.png";
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,13 +24,13 @@ function NavBar()
                 <div className="collapse navbar-collapse w-100" id="navbarNavDropdown">
                     <ul className="navbar-nav navbar-links-group">
                         <li className="nav-item active">
-                            <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+                            <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/Item">Item Page</a>
+                            <Link to="/Item" className="nav-link">Item Page</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/Cart">Cart Page</a>
+                            <Link to="/Cart" className="nav-link">Cart Page</Link>
                         </li>
                         {/* <li className="nav-item">
                             <a className="nav-link" href="#">Pricing</a>
