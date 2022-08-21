@@ -7,7 +7,7 @@ import { Button } from 'react-bootstrap';
 function Item(props)
 {
     const[quantity, setQuantity] = useState(1);
-    const[sizeSelected, setSizeSelected] = useState("");
+    /* const[sizeSelected, setSizeSelected] = useState(""); */
 
     function onQuantityUpdate(event, amount){
         const newQty = quantity + amount <= 1 ? 1 : quantity + amount;
@@ -15,7 +15,7 @@ function Item(props)
     }
 
     function onSizeSelect(event, newSize, boxNum){
-        setSizeSelected(newSize);
+        /* setSizeSelected(newSize); */
 
         let allSizeBoxes = document.getElementsByClassName("size-box");
         
