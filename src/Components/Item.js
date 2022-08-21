@@ -25,7 +25,7 @@ function Item(props)
                 allSizeBoxes[i].classList.add("size-box-selected");
             else
                 allSizeBoxes[i].classList.remove("size-box-selected");
-        }        
+        }
     }
 
     return(

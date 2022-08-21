@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+/* import React, { useState } from 'react'; */
 import {Button} from 'react-bootstrap';
 import "./CSS/SizeChartMaker.css"
 
 function SizeChartMaker(props)
 {
-    const sizeInput = useState("");
-    const chartSizes = useState([]);
+    /* const sizeInput = useState("");
+    const chartSizes = useState([]); */
 
     return(
         <div>

@@ -21,7 +21,7 @@ function BasketPage()
                         </div>
                         <div className="single-detail-box mb-4">
                             <h5>Total</h5>
-                            <h5>$220.00</h5>
+                            <h5>$100.00</h5>
                         </div>
                     </div>
                     <button className="btn btn-dark checkout-btn mt-4"><h4 className="checkout-btn-text">Checkout</h4></button>

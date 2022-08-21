@@ -1,6 +1,5 @@
 import React from 'react';
 import './CSS/BasketCard.css';
-import {Button} from "react-bootstrap";
 
 function BasketCard()
 {
